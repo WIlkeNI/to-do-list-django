@@ -1,8 +1,11 @@
 # to-do-list-django
 
-Django version: 1.11.2
-python version: 3.5.2
-virtualenv version: 15.1.0
+Django version: 1.11.2;
+
+python version: 3.5.2;
+
+virtualenv version: 15.1.0;
+
 
 If you have already installed python and you don't want to break those settings you can start a virtualenv environment, install the django and go through all the others steps.
 
@@ -24,4 +27,4 @@ $python3 manage.py runserver
 *)super_admin_user --> username: e_user_tdl password: e_user_tdl
 **)regular_user --> username: usuario password:envolsers
 
-If step 5 doesn't work, create a superuser with python manage.py createsuperuser, loggin with those credentials and create a regular user.
+If step 5 doesn't work, create a superuser with python manage.py createsuperuser, login with those credentials and create a regular user.
